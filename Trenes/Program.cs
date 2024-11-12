@@ -10,7 +10,8 @@ namespace Trens
     {
 
         static void Main(string[] args)
-        {            
+        {     
+            Console.WriteLine("TEST");
             Thread TTren1 = new Thread(Tren1);
             Thread TTren2 = new Thread(Tren2);
 
