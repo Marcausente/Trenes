@@ -1,0 +1,14 @@
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/bin/Debug/net8.0/TrenesProject
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/bin/Debug/net8.0/TrenesProject.deps.json
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/bin/Debug/net8.0/TrenesProject.runtimeconfig.json
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/bin/Debug/net8.0/TrenesProject.dll
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/bin/Debug/net8.0/TrenesProject.pdb
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.AssemblyInfoInputs.cache
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.AssemblyInfo.cs
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.csproj.CoreCompileInputs.cache
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.dll
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/refint/TrenesProject.dll
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.pdb
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.genruntimeconfig.cache
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/ref/TrenesProject.dll
