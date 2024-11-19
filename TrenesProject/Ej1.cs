@@ -5,52 +5,51 @@ class Ej1
 {
     private static SemaphoreSlim controlAcceso = new SemaphoreSlim(1, 1);
 
-    static void RecorridoTrenA()
+    static void RecorridoTren1()
     {
         for (int distancia = 0; distancia <= 100; distancia++)
         {
-            if (distancia == 25)
+            if (distancia == 20)
             {
                 controlAcceso.Wait();
             }
-            else if (distancia == 75)
+            else if (distancia == 60)
             {
                 controlAcceso.Release();
             }
 
-            Console.WriteLine($"Tren A: {distancia} km");
-            Thread.Sleep(250);
+            Console.WriteLine($"Tren 1: {distancia} km");
+            Thread.Sleep(250); // Espera 250 ms por kilómetro
         }
     }
 
-    static void RecorridoTrenB()
+    static void RecorridoTren2()
     {
         for (int distancia = 100; distancia >= 0; distancia--)
         {
-            if (distancia == 75)
+            if (distancia == 60)
             {
                 controlAcceso.Wait();
             }
-            else if (distancia == 25)
+            else if (distancia == 20)
             {
                 controlAcceso.Release();
             }
-
-            Console.WriteLine($"\t\t\t\tTren B: km {distancia}");
-            Thread.Sleep(200);
+            Console.WriteLine($"\t\t\t\tTren 2: km {distancia}");
+            Thread.Sleep(200); // Espera 200 ms por kilómetro
         }
     }
 
     static void Main(string[] args)
     {
-        Thread hiloTrenA = new Thread(RecorridoTrenA);
-        Thread hiloTrenB = new Thread(RecorridoTrenB);
+        Thread hiloTren1 = new Thread(RecorridoTren1);
+        Thread hiloTren2 = new Thread(RecorridoTren2);
 
-        hiloTrenA.Start();
-        hiloTrenB.Start();
+        hiloTren1.Start();
+        hiloTren2.Start();
 
-        hiloTrenA.Join();
-        hiloTrenB.Join();
+        hiloTren1.Join();
+        hiloTren2.Join();
 
         Console.WriteLine("Ambos trenes han completado sus trayectos.");
     }
