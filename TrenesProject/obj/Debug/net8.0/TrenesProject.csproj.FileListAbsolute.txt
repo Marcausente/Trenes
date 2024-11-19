@@ -12,3 +12,4 @@
 /Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.pdb
 /Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.genruntimeconfig.cache
 /Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/ref/TrenesProject.dll
+/Users/marcfernandez/RiderProjects/TrenesProject/TrenesProject/obj/Debug/net8.0/TrenesProject.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrenesProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+523f035bd9c594e7fb19e8b1bf52bc57afdeb3aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e09297a0803ee579f7077e36117f787121af017a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrenesProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrenesProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
